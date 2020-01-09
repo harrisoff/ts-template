@@ -1,0 +1,23 @@
+{
+  "name": "ts-template",
+  "version": "1.0.0",
+  "description": "A simple typescript template with linter.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -w -p ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.5",
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}
